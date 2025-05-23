@@ -1,0 +1,27 @@
+# .gitignore
+.env
+app/__pycache__/
+*.pyc
+venv
+core/__pycache__
+__pycache__
+
+app/data/processed_ratings.csv
+app/data/ratings_Electronics.csv
+app/data/processed_products.csv
+
+
+# Logs
+logs
+*.log
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
